@@ -1,3 +1,4 @@
+import 'package:apk_kiki/nav.dart';
 import 'package:flutter/material.dart';
 
 class SearchPage extends StatefulWidget {
@@ -48,7 +49,11 @@ class _SearchPageState extends State<SearchPage> {
                     height: 2.5,
                     fontWeight: FontWeight.w600,
                   )),
-              Row(children: [
+              GestureDetector(
+                onTap: () {
+                  navToProfilAkmal(context);
+                },
+                child: Row(children: [
                 CircleAvatar(
                     radius: 25,
                     child: ClipOval(
@@ -68,27 +73,35 @@ class _SearchPageState extends State<SearchPage> {
                       Text('Depression')
                     ])
               ]),
+              ),
               const SizedBox(height: 10),
-              Row(children: [
-                CircleAvatar(
-                    radius: 25,
-                    child: ClipOval(
-                        child: Image.asset(
-                      'assets/11.jpeg',
-                      fit: BoxFit.cover,
-                    ))),
-                const SizedBox(width: 10),
-                const Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    children: [
-                      Text('@muhammaddrizki',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                          )),
-                      Text('Commission Open')
-                    ])
-              ])
+              GestureDetector(
+                onTap: () {},
+                child: Row(
+                children: [
+                  Row(children: [
+                    CircleAvatar(
+                        radius: 25,
+                        child: ClipOval(
+                            child: Image.asset(
+                          'assets/11.jpeg',
+                          fit: BoxFit.cover,
+                        ))),
+                    const SizedBox(width: 10),
+                    const Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          Text('@muhammaddrizki',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              )),
+                          Text('Commission Open')
+                        ])
+                  ]),
+                ],
+              ),
+              )
             ])));
   }
 }

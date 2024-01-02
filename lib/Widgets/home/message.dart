@@ -1,3 +1,4 @@
+import 'package:apk_kiki/nav.dart';
 import 'package:flutter/material.dart';
 
 class MessagePage extends StatefulWidget {
@@ -25,7 +26,9 @@ class _MessagePageState extends State<MessagePage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 GestureDetector(
-                  onTap: () {},
+                  onTap: () {
+                    navToAkmal(context);
+                  },
                   child: Row(children: [
                     CircleAvatar(
                         radius: 25,

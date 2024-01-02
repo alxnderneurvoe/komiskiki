@@ -1,5 +1,11 @@
 
 import 'package:apk_kiki/Widgets/home/message.dart';
+import 'package:apk_kiki/Widgets/home/messages/akmal.dart';
+import 'package:apk_kiki/Widgets/profil-akmal/profil-akmal.dart';
+import 'package:apk_kiki/Widgets/profil/button/follower.dart';
+import 'package:apk_kiki/Widgets/profil/button/following.dart';
+import 'package:apk_kiki/Widgets/profil/button/setting.dart';
+import 'package:apk_kiki/Widgets/profil/postingan.dart';
 import 'package:flutter/material.dart';
 
 import 'Widgets/home/home.dart';
@@ -47,5 +53,47 @@ void navToMessage(BuildContext context) {
   Navigator.push(
     context,
     MaterialPageRoute(builder: (context) => const MessagePage()),
+  );
+}
+
+void navToAkmal(BuildContext context) {
+  Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => const MessageAkmal()),
+  );
+}
+
+void navToProfilAkmal(BuildContext context) {
+  Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => const ProfilAkmal()),
+  );
+}
+
+void navToFollowing(BuildContext context) {
+  Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => const FollowingPage()),
+  );
+}
+
+void navToFollower(BuildContext context) {
+  Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => const FollowerPage())
+  );
+}
+
+void navToSetting(BuildContext context) {
+  Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => const SettingPage())
+  );
+}
+
+void navToPost(BuildContext context) {
+  Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => const PostPage())
   );
 }

@@ -1,6 +1,5 @@
 // ignore_for_file: file_names
 
-import 'package:apk_kiki/nav.dart';
 import 'package:flutter/material.dart';
 
 class ProfilFeeds extends StatelessWidget {
@@ -32,23 +31,18 @@ class ProfilFeeds extends StatelessWidget {
                                   fit: BoxFit.cover),
                             )),
                         const SizedBox(width: 1),
-                        GestureDetector(
-                          onTap: () {
-                            navToPost(context);
-                          },
-                          child: Container(
-                              height: 100,
-                              width: 100,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(5),
-                                color: Colors.black.withOpacity(0.5),
-                              ),
-                              child: ClipRRect(
-                                borderRadius: BorderRadius.circular(5),
-                                child: Image.asset('assets/11.jpeg',
-                                    fit: BoxFit.cover),
-                              )),
-                        ),
+                        Container(
+                            height: 100,
+                            width: 100,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(5),
+                              color: Colors.black.withOpacity(0.5),
+                            ),
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(5),
+                              child: Image.asset('assets/11.jpeg',
+                                  fit: BoxFit.cover),
+                            )),
                         const SizedBox(width: 1),
                         Container(
                             height: 100,
