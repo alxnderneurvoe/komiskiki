@@ -31,9 +31,10 @@ class PotoProfil extends StatelessWidget {
                     radius: 80,
                     child: ClipOval(
                         child: Image.asset(
-                      'assets/akmal/akmal.png',
+                      'assets/akmal/b.jpg',
                       fit: BoxFit.cover,
-                    )))),
+                      width: 160,
+                    ))))
           ])
         ]));
   }

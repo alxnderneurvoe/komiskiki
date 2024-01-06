@@ -19,7 +19,7 @@ class MessageAkmal extends StatelessWidget {
                       radius: 25,
                       child: ClipOval(
                           child: Image.asset(
-                        'assets/11.jpeg',
+                        'assets/akmal/b.jpg',
                         fit: BoxFit.cover,
                       ))),
                   const SizedBox(width: 10),
@@ -94,7 +94,7 @@ class MessageAkmal extends StatelessWidget {
                                       radius: 20,
                                       child: ClipOval(
                                           child: Image.asset(
-                                        'assets/11.jpeg',
+                                        'assets/akmal/b.jpg',
                                         fit: BoxFit.cover,
                                       ))),
                                   const SizedBox(width: 10),
