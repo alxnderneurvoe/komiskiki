@@ -26,49 +26,53 @@ class _HomePageState extends State<HomePage> {
         body: ListView(children: [
           Column(children: [
             Container(
-              decoration: const BoxDecoration(
-                  border: Border(
-                      bottom: BorderSide(color: Colors.black54, width: 1.4))),
-              child: Row(mainAxisAlignment: MainAxisAlignment.end, children: [
-                Expanded(
-                    child: Container(
-                        margin: const EdgeInsets.only(left: 30),
-                        child: ShaderMask(
-                            shaderCallback: (Rect bounds) {
-                              return const LinearGradient(
-                                      begin: Alignment.centerLeft,
-                                      end: Alignment.centerRight,
-                                      colors: [Colors.orange, Colors.red],
-                                      stops: [0.0, 1.0],
-                                      tileMode: TileMode.clamp)
-                                  .createShader(bounds);
-                            },
-                            child: const Text('Kirina Art',
-                                style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 24,
-                                    fontWeight: FontWeight.bold))))),
-                IconButton(
-                    onPressed: () {
-                      navToSearch(context);
-                    },
-                    icon: const Icon(
-                      Icons.search,
-                      color: Colors.black,
-                      size: 40,
-                    )),
-                // BUTTON ICON CHAT // BUTTON ICON CHAT // BUTTON ICON CHAT // BUTTON ICON CHAT
-                IconButton(
-                    onPressed: () {
-                      navToMessage(context);
-                    },
-                    icon: const Icon(
-                      CupertinoIcons.chat_bubble_text,
-                      color: Colors.black,
-                      size: 40,
-                    ))
-              ]),
-            ),
+                decoration: const BoxDecoration(
+                    color: Colors.white,
+                    boxShadow: [
+                      BoxShadow(
+                          blurRadius: 10,
+                          color: Colors.grey,
+                          offset: Offset(5, 5))
+                    ]),
+                child: Row(mainAxisAlignment: MainAxisAlignment.end, children: [
+                  Expanded(
+                      child: Container(
+                          margin: const EdgeInsets.only(left: 30),
+                          child: ShaderMask(
+                              shaderCallback: (Rect bounds) {
+                                return const LinearGradient(
+                                        begin: Alignment.centerLeft,
+                                        end: Alignment.centerRight,
+                                        colors: [Colors.orange, Colors.red],
+                                        stops: [0.0, 1.0],
+                                        tileMode: TileMode.clamp)
+                                    .createShader(bounds);
+                              },
+                              child: const Text('Kirina Art',
+                                  style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 24,
+                                      fontWeight: FontWeight.bold))))),
+                  IconButton(
+                      onPressed: () {
+                        navToSearch(context);
+                      },
+                      icon: const Icon(
+                        Icons.search,
+                        color: Colors.black,
+                        size: 40,
+                      )),
+                  // BUTTON ICON CHAT // BUTTON ICON CHAT // BUTTON ICON CHAT // BUTTON ICON CHAT
+                  IconButton(
+                      onPressed: () {
+                        navToMessage(context);
+                      },
+                      icon: const Icon(
+                        CupertinoIcons.chat_bubble_text,
+                        color: Colors.black,
+                        size: 40,
+                      ))
+                ])),
             const PictPage(),
           ])
         ]),
