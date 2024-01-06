@@ -23,7 +23,7 @@ class _FollowerPageState extends State<FollowerPage> {
                           radius: 25,
                           child: ClipOval(
                               child: Image.asset(
-                            'assets/11.jpeg',
+                            'assets/q.jpg',
                             fit: BoxFit.cover,
                           ))),
                       const SizedBox(width: 10),
@@ -72,18 +72,15 @@ class _FollowerPageState extends State<FollowerPage> {
                       ])
                 ]),
               ),
+              const SizedBox(height: 10),
               GestureDetector(
-                onTap: () {
-                  navToProfilAkmal(context);
-                },
+                onTap: () {},
                 child: Row(children: [
                   CircleAvatar(
                       radius: 25,
                       child: ClipOval(
-                          child: Image.asset(
-                        'assets/11.jpeg',
-                        fit: BoxFit.cover,
-                      ))),
+                          child: Image.asset('assets/g.png',
+                              fit: BoxFit.cover, width: 100))),
                   const SizedBox(width: 10),
                   const Column(
                       crossAxisAlignment: CrossAxisAlignment.start,

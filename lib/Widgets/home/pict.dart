@@ -31,7 +31,7 @@ class _PictPageState extends State<PictPage> {
                               boxShadow: [
                                 BoxShadow(
                                   color: Colors.black.withOpacity(0.5),
-                                  offset: Offset(5, 5),
+                                  offset: const Offset(5, 5),
                                   blurRadius: 10,
                                 )
                               ]),
@@ -50,7 +50,7 @@ class _PictPageState extends State<PictPage> {
                               boxShadow: [
                                 BoxShadow(
                                   color: Colors.black.withOpacity(0.5),
-                                  offset: Offset(5, 5),
+                                  offset: const Offset(5, 5),
                                   blurRadius: 10,
                                 )
                               ]),
@@ -74,7 +74,7 @@ class _PictPageState extends State<PictPage> {
                               boxShadow: [
                                 BoxShadow(
                                   color: Colors.black.withOpacity(0.5),
-                                  offset: Offset(5, 5),
+                                  offset: const Offset(5, 5),
                                   blurRadius: 10,
                                 )
                               ]),
@@ -93,7 +93,7 @@ class _PictPageState extends State<PictPage> {
                               boxShadow: [
                                 BoxShadow(
                                   color: Colors.black.withOpacity(0.5),
-                                  offset: Offset(5, 5),
+                                  offset: const Offset(5, 5),
                                   blurRadius: 10,
                                 )
                               ]),
@@ -117,14 +117,14 @@ class _PictPageState extends State<PictPage> {
                               boxShadow: [
                                 BoxShadow(
                                   color: Colors.black.withOpacity(0.5),
-                                  offset: Offset(5, 5),
+                                  offset: const Offset(5, 5),
                                   blurRadius: 10,
                                 )
                               ]),
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(15),
-                            child: Image.asset('assets/p.jpg',
-                                fit: BoxFit.cover),
+                            child:
+                                Image.asset('assets/p.jpg', fit: BoxFit.cover),
                           )),
                       const SizedBox(width: 1),
                       Container(
@@ -136,14 +136,14 @@ class _PictPageState extends State<PictPage> {
                               boxShadow: [
                                 BoxShadow(
                                   color: Colors.black.withOpacity(0.5),
-                                  offset: Offset(5, 5),
+                                  offset: const Offset(5, 5),
                                   blurRadius: 10,
                                 )
                               ]),
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(15),
-                            child: Image.asset('assets/s.jpg',
-                                fit: BoxFit.cover),
+                            child:
+                                Image.asset('assets/s.jpg', fit: BoxFit.cover),
                           ))
                     ])
               ]))),

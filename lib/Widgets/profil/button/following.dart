@@ -23,7 +23,7 @@ class _FollowingPageState extends State<FollowingPage> {
                           radius: 25,
                           child: ClipOval(
                               child: Image.asset(
-                            'assets/11.jpeg',
+                            'assets/q.jpg',
                             fit: BoxFit.cover,
                           ))),
                       const SizedBox(width: 10),

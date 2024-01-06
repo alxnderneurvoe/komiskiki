@@ -27,13 +27,13 @@ class ProfilFeeds extends StatelessWidget {
                                 boxShadow: [
                                   BoxShadow(
                                     color: Colors.black.withOpacity(0.5),
-                                    offset: Offset(5, 5),
+                                    offset: const Offset(5, 5),
                                     blurRadius: 10,
                                   )
                                 ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
-                              child: Image.asset('assets/11.jpeg',
+                              child: Image.asset('assets/akmal/a.jpg',
                                   fit: BoxFit.cover),
                             )),
                         const SizedBox(width: 1),
@@ -52,7 +52,7 @@ class ProfilFeeds extends StatelessWidget {
                                 ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
-                              child: Image.asset('assets/11.jpeg',
+                              child: Image.asset('assets/akmal/b.jpg',
                                   fit: BoxFit.cover),
                             )),
                         const SizedBox(width: 1),
@@ -71,7 +71,7 @@ class ProfilFeeds extends StatelessWidget {
                                 ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
-                              child: Image.asset('assets/11.jpeg',
+                              child: Image.asset('assets/akmal/c.jpg',
                                   fit: BoxFit.cover),
                             ))
                       ]),
@@ -95,7 +95,7 @@ class ProfilFeeds extends StatelessWidget {
                                 ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
-                              child: Image.asset('assets/11.jpeg',
+                              child: Image.asset('assets/akmal/d.jpg',
                                   fit: BoxFit.cover),
                             )),
                         const SizedBox(width: 1),
@@ -114,7 +114,7 @@ class ProfilFeeds extends StatelessWidget {
                                 ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
-                              child: Image.asset('assets/11.jpeg',
+                              child: Image.asset('assets/akmal/e.jpg',
                                   fit: BoxFit.cover),
                             )),
                         const SizedBox(width: 1),
@@ -133,7 +133,7 @@ class ProfilFeeds extends StatelessWidget {
                                 ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
-                              child: Image.asset('assets/11.jpeg',
+                              child: Image.asset('assets/akmal/f.jpg',
                                   fit: BoxFit.cover),
                             ))
                       ]),
@@ -157,7 +157,7 @@ class ProfilFeeds extends StatelessWidget {
                                 ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
-                              child: Image.asset('assets/11.jpeg',
+                              child: Image.asset('assets/akmal/g.jpg',
                                   fit: BoxFit.cover),
                             )),
                         const SizedBox(width: 1),
@@ -176,7 +176,7 @@ class ProfilFeeds extends StatelessWidget {
                                 ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
-                              child: Image.asset('assets/11.jpeg',
+                              child: Image.asset('assets/akmal/h.jpg',
                                   fit: BoxFit.cover),
                             )),
                         const SizedBox(width: 1),
@@ -195,7 +195,7 @@ class ProfilFeeds extends StatelessWidget {
                                 ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
-                              child: Image.asset('assets/11.jpeg',
+                              child: Image.asset('assets/akmal/i.jpg',
                                   fit: BoxFit.cover),
                             ))
                       ]),

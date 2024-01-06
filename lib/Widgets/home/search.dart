@@ -58,7 +58,7 @@ class _SearchPageState extends State<SearchPage> {
                     radius: 25,
                     child: ClipOval(
                         child: Image.asset(
-                      'assets/11.jpeg',
+                      'assets/akmal/akmal.png',
                       fit: BoxFit.cover,
                     ))),
                 const SizedBox(width: 10),
@@ -84,8 +84,8 @@ class _SearchPageState extends State<SearchPage> {
                         radius: 25,
                         child: ClipOval(
                             child: Image.asset(
-                          'assets/11.jpeg',
-                          fit: BoxFit.cover,
+                          'assets/g.png',
+                          fit: BoxFit.fitWidth, width: 100,
                         ))),
                     const SizedBox(width: 10),
                     const Column(

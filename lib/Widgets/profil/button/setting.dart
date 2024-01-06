@@ -22,10 +22,13 @@ class SettingPage extends StatelessWidget {
             child: Column(children: [
               Center(
                   child: CircleAvatar(
-                      radius: 90,
-                      child: ClipOval(
-                          child: Image.asset('assets/11.jpeg',
-                              fit: BoxFit.cover)))),
+                    radius: 92,
+                    child: CircleAvatar(
+                        radius: 90,
+                        child: ClipOval(
+                            child:
+                                Image.asset('assets/q.jpg', fit: BoxFit.cover))),
+                  )),
               Expanded(
                   child: SingleChildScrollView(
                       child: Column(
