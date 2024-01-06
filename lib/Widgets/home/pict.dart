@@ -11,7 +11,7 @@ class _PictPageState extends State<PictPage> {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 700,
+      height: 660,
       width: double.infinity,
       child: SingleChildScrollView(
           scrollDirection: Axis.vertical,
@@ -37,8 +37,8 @@ class _PictPageState extends State<PictPage> {
                               ]),
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(15),
-                            child: Image.asset('assets/11.jpeg',
-                                fit: BoxFit.cover),
+                            child:
+                                Image.asset('assets/e.png', fit: BoxFit.cover),
                           )),
                       const SizedBox(width: 1),
                       Container(
@@ -56,8 +56,8 @@ class _PictPageState extends State<PictPage> {
                               ]),
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(15),
-                            child: Image.asset('assets/11.jpeg',
-                                fit: BoxFit.cover),
+                            child:
+                                Image.asset('assets/h.jpg', fit: BoxFit.cover),
                           ))
                     ]),
                 const SizedBox(height: 10),
@@ -80,8 +80,8 @@ class _PictPageState extends State<PictPage> {
                               ]),
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(15),
-                            child: Image.asset('assets/11.jpeg',
-                                fit: BoxFit.cover),
+                            child:
+                                Image.asset('assets/k.png', fit: BoxFit.cover),
                           )),
                       const SizedBox(width: 1),
                       Container(
@@ -99,8 +99,8 @@ class _PictPageState extends State<PictPage> {
                               ]),
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(15),
-                            child: Image.asset('assets/11.jpeg',
-                                fit: BoxFit.cover),
+                            child:
+                                Image.asset('assets/l.jpg', fit: BoxFit.cover),
                           ))
                     ]),
                 const SizedBox(height: 10),
@@ -123,7 +123,7 @@ class _PictPageState extends State<PictPage> {
                               ]),
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(15),
-                            child: Image.asset('assets/11.jpeg',
+                            child: Image.asset('assets/p.jpg',
                                 fit: BoxFit.cover),
                           )),
                       const SizedBox(width: 1),
@@ -142,7 +142,7 @@ class _PictPageState extends State<PictPage> {
                               ]),
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(15),
-                            child: Image.asset('assets/11.jpeg',
+                            child: Image.asset('assets/s.jpg',
                                 fit: BoxFit.cover),
                           ))
                     ])

@@ -74,6 +74,7 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                     child: TextFormField(
                         controller: _password,
+                        obscureText: true,
                         cursorColor: Colors.black.withOpacity(0.5),
                         decoration: const InputDecoration(
                             floatingLabelBehavior: FloatingLabelBehavior.never,

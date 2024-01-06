@@ -18,7 +18,7 @@ class PotoProfil extends StatelessWidget {
               SizedBox(
                 height: 220,
                 width: double.infinity,
-                child: Image.asset('assets/11.jpeg', fit: BoxFit.cover),
+                child: Image.asset('assets/pp.png', fit: BoxFit.cover),
               )
             ]),
             Positioned(
@@ -38,14 +38,18 @@ class PotoProfil extends StatelessWidget {
           Stack(children: [
             Positioned(
                 bottom: 0,
-                left: (MediaQuery.of(context).size.width - 140) / 2,
+                left: (MediaQuery.of(context).size.width - 144) / 2,
                 child: CircleAvatar(
-                    radius: 70,
-                    child: ClipOval(
-                        child: Image.asset(
-                      'assets/11.jpeg',
-                      fit: BoxFit.cover,
-                    )))),
+                  backgroundColor: Colors.black45,
+                  radius: 72,
+                  child: CircleAvatar(
+                      radius: 70,
+                      child: ClipOval(
+                          child: Image.asset(
+                        'assets/q.jpg',
+                        fit: BoxFit.cover,
+                      ))),
+                )),
             Positioned(
                 bottom: 0,
                 right: (MediaQuery.of(context).size.width - 130) / 2,

@@ -34,7 +34,7 @@ class ProfilFeeds extends StatelessWidget {
                                 ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
-                              child: Image.asset('assets/11.jpeg',
+                              child: Image.asset('assets/a.png',
                                   fit: BoxFit.cover),
                             )),
                         const SizedBox(width: 1),
@@ -57,7 +57,7 @@ class ProfilFeeds extends StatelessWidget {
                                   ]),
                               child: ClipRRect(
                                 borderRadius: BorderRadius.circular(5),
-                                child: Image.asset('assets/11.jpeg',
+                                child: Image.asset('assets/b.png',
                                     fit: BoxFit.cover),
                               )),
                         ),
@@ -77,7 +77,7 @@ class ProfilFeeds extends StatelessWidget {
                                 ]),
                             child: ClipRRect(
                                 borderRadius: BorderRadius.circular(5),
-                                child: Image.asset('assets/11.jpeg',
+                                child: Image.asset('assets/c.jpg',
                                     fit: BoxFit.cover)))
                       ]),
                   const SizedBox(height: 15),
@@ -100,7 +100,7 @@ class ProfilFeeds extends StatelessWidget {
                                 ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
-                              child: Image.asset('assets/11.jpeg',
+                              child: Image.asset('assets/d.png',
                                   fit: BoxFit.cover),
                             )),
                         const SizedBox(width: 1),
@@ -119,7 +119,7 @@ class ProfilFeeds extends StatelessWidget {
                                 ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
-                              child: Image.asset('assets/11.jpeg',
+                              child: Image.asset('assets/f.jfif',
                                   fit: BoxFit.cover),
                             )),
                         const SizedBox(width: 1),
@@ -138,7 +138,7 @@ class ProfilFeeds extends StatelessWidget {
                                 ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
-                              child: Image.asset('assets/11.jpeg',
+                              child: Image.asset('assets/s.jpg',
                                   fit: BoxFit.cover),
                             ))
                       ]),
@@ -162,7 +162,7 @@ class ProfilFeeds extends StatelessWidget {
                                 ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
-                              child: Image.asset('assets/11.jpeg',
+                              child: Image.asset('assets/o.jpg',
                                   fit: BoxFit.cover),
                             )),
                         const SizedBox(width: 1),
@@ -181,7 +181,7 @@ class ProfilFeeds extends StatelessWidget {
                                 ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
-                              child: Image.asset('assets/11.jpeg',
+                              child: Image.asset('assets/n.jpg',
                                   fit: BoxFit.cover),
                             )),
                         const SizedBox(width: 1),
@@ -200,7 +200,7 @@ class ProfilFeeds extends StatelessWidget {
                                 ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
-                              child: Image.asset('assets/11.jpeg',
+                              child: Image.asset('assets/j.jpg',
                                   fit: BoxFit.cover),
                             ))
                       ]),
