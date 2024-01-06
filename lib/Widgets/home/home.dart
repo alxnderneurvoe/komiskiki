@@ -25,29 +25,50 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
         body: ListView(children: [
           Column(children: [
-            const SizedBox(height: 20),
-            Row(mainAxisAlignment: MainAxisAlignment.end, children: [
-              // BUTTON ICON SEARCH // BUTTON ICON SEARCH // BUTTON ICON SEARCH // BUTTON ICON SEARCH
-              IconButton(
-                  onPressed: () {
-                    navToSearch(context);
-                  },
-                  icon: const Icon(
-                    Icons.search,
-                    color: Colors.black,
-                    size: 40,
-                  )),
-              // BUTTON ICON CHAT // BUTTON ICON CHAT // BUTTON ICON CHAT // BUTTON ICON CHAT
-              IconButton(
-                  onPressed: () {
-                    navToMessage(context);
-                  },
-                  icon: const Icon(
-                    CupertinoIcons.chat_bubble_text,
-                    color: Colors.black,
-                    size: 40,
-                  ))
-            ]),
+            Container(
+              decoration: const BoxDecoration(
+                  border: Border(
+                      bottom: BorderSide(color: Colors.black54, width: 1.4))),
+              child: Row(mainAxisAlignment: MainAxisAlignment.end, children: [
+                Expanded(
+                    child: Container(
+                        margin: const EdgeInsets.only(left: 30),
+                        child: ShaderMask(
+                            shaderCallback: (Rect bounds) {
+                              return const LinearGradient(
+                                      begin: Alignment.centerLeft,
+                                      end: Alignment.centerRight,
+                                      colors: [Colors.orange, Colors.red],
+                                      stops: [0.0, 1.0],
+                                      tileMode: TileMode.clamp)
+                                  .createShader(bounds);
+                            },
+                            child: const Text('Kirina Art',
+                                style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 24,
+                                    fontWeight: FontWeight.bold))))),
+                IconButton(
+                    onPressed: () {
+                      navToSearch(context);
+                    },
+                    icon: const Icon(
+                      Icons.search,
+                      color: Colors.black,
+                      size: 40,
+                    )),
+                // BUTTON ICON CHAT // BUTTON ICON CHAT // BUTTON ICON CHAT // BUTTON ICON CHAT
+                IconButton(
+                    onPressed: () {
+                      navToMessage(context);
+                    },
+                    icon: const Icon(
+                      CupertinoIcons.chat_bubble_text,
+                      color: Colors.black,
+                      size: 40,
+                    ))
+              ]),
+            ),
             const PictPage(),
           ])
         ]),
@@ -57,13 +78,13 @@ class _HomePageState extends State<HomePage> {
         floatingActionButton: FloatingActionButton(
             shape: const CircleBorder(),
             splashColor: Colors.grey.shade200,
-            backgroundColor: Colors.white,
+            backgroundColor: Colors.orange,
             elevation: 4,
             onPressed: _pickImage,
             child: const Icon(
               Icons.add,
               size: 40,
-              color: Colors.black,
+              color: Colors.white,
             )),
         // BUTTON BAR BAWAH // BUTTON BAR BAWAH // BUTTON BAR BAWAH // BUTTON BAR BAWAH // BUTTON BAR BAWAH
         bottomNavigationBar: BottomNavBar(

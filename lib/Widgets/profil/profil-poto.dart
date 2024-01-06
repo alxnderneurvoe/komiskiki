@@ -8,7 +8,7 @@ class PotoProfil extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-        height: 310,
+        height: 300,
         width: double.infinity,
         child: Stack(children: [
           // WALLPAPER // WALLPAPER // WALLPAPER // WALLPAPER // WALLPAPER // WALLPAPER
@@ -16,13 +16,13 @@ class PotoProfil extends StatelessWidget {
             Column(children: [
               const SizedBox(height: 20),
               SizedBox(
-                height: 250,
+                height: 220,
                 width: double.infinity,
                 child: Image.asset('assets/11.jpeg', fit: BoxFit.cover),
               )
             ]),
             Positioned(
-                bottom: 25,
+                bottom: 45,
                 right: 10,
                 child: CircleAvatar(
                     backgroundColor: Colors.grey.shade200,
@@ -38,9 +38,9 @@ class PotoProfil extends StatelessWidget {
           Stack(children: [
             Positioned(
                 bottom: 0,
-                left: (MediaQuery.of(context).size.width - 160) / 2,
+                left: (MediaQuery.of(context).size.width - 140) / 2,
                 child: CircleAvatar(
-                    radius: 80,
+                    radius: 70,
                     child: ClipOval(
                         child: Image.asset(
                       'assets/11.jpeg',

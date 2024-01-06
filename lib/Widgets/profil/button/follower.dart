@@ -15,7 +15,7 @@ class _FollowerPageState extends State<FollowerPage> {
         appBar: AppBar(
             title: Container(
                 width: 280,
-                height: 50,
+                height: 30,
                 child: Row(
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [

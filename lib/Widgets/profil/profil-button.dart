@@ -11,7 +11,7 @@ class ButtonProfil extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       height: 70,
-      width: 280,
+      width: 320,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
@@ -23,13 +23,14 @@ class ButtonProfil extends StatelessWidget {
                 borderRadius: BorderRadius.circular(5),
                 color: Colors.black.withOpacity(0.1),
               ),
-              child: GestureDetector(onTap: () {
-                navToFollower(context);
-              },
+              child: GestureDetector(
+                  onTap: () {
+                    navToFollower(context);
+                  },
                   child: const Text(
-                '2 Followers',
-                style: TextStyle(fontWeight: FontWeight.bold),
-              ))),
+                    '2 Followers',
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ))),
           Container(
               height: 27,
               width: 110,
@@ -38,13 +39,14 @@ class ButtonProfil extends StatelessWidget {
                 borderRadius: BorderRadius.circular(5),
                 color: Colors.black.withOpacity(0.1),
               ),
-              child: GestureDetector(onTap: () {
-                navToFollowing(context);
-              },
+              child: GestureDetector(
+                  onTap: () {
+                    navToFollowing(context);
+                  },
                   child: const Text(
-                '1 Following',
-                style: TextStyle(fontWeight: FontWeight.bold),
-              ))),
+                    '1 Following',
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ))),
           Container(
               height: 27,
               width: 27,
@@ -53,12 +55,27 @@ class ButtonProfil extends StatelessWidget {
                 borderRadius: BorderRadius.circular(5),
                 color: Colors.black.withOpacity(0.1),
               ),
-              child: GestureDetector(onTap: () {
-                navToSetting(context);
-              },
+              child: GestureDetector(
+                  onTap: () {
+                    navToSetting(context);
+                  },
+                  child: const Icon(CupertinoIcons.settings, size: 20))),
+          Container(
+              height: 27,
+              width: 27,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(5),
+                color: Colors.black.withOpacity(0.1),
+              ),
+              child: GestureDetector(
+                  onTap: () {
+                    navToLoginPage(context);
+                  },
                   child: const Icon(
-                CupertinoIcons.settings, size: 20,
-              ))),
+                    Icons.login,
+                    size: 20,
+                  ))),
         ],
       ),
     );

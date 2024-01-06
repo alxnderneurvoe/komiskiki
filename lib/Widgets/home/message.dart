@@ -13,19 +13,16 @@ class _MessagePageState extends State<MessagePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-            title: const Text(
-          'Messages',
-          style: TextStyle(
-            fontSize: 35,
-            fontWeight: FontWeight.w400,
-          ),
-        )),
+            title: const Text('Messages',
+                style: TextStyle(
+                  fontSize: 30,
+                  fontWeight: FontWeight.w400,
+                ))),
         body: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                GestureDetector(
+            child:
+                Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              GestureDetector(
                   onTap: () {
                     navToAkmal(context);
                   },
@@ -46,12 +43,11 @@ class _MessagePageState extends State<MessagePage> {
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
                               )),
-                          Text('Im in Ady Kupi right now, come here.')
+                          Text('Im in 2R Coffee right now, come here')
                         ])
-                  ]),
-                ),
-                const SizedBox(height: 10),
-                GestureDetector(
+                  ])),
+              const SizedBox(height: 10),
+              GestureDetector(
                   onTap: () {},
                   child: Row(children: [
                     CircleAvatar(
@@ -72,9 +68,7 @@ class _MessagePageState extends State<MessagePage> {
                               )),
                           Text('okayy, i will send u \$130 soon')
                         ])
-                  ]),
-                )
-              ],
-            )));
+                  ]))
+            ])));
   }
 }

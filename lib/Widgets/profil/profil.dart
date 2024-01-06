@@ -34,18 +34,17 @@ class _ProfilPageState extends State<ProfilPage> {
       ),
       floatingActionButtonLocation:
           FloatingActionButtonLocation.miniCenterDocked,
-      floatingActionButton: FloatingActionButton(
-        shape: const CircleBorder(),
-        splashColor: Colors.grey.shade200,
-        backgroundColor: Colors.white,
-        elevation: 4,
-        onPressed: _pickImage,
-        child: const Icon(
-          Icons.add,
-          size: 40,
-          color: Colors.black,
-        ),
-      ),
+        floatingActionButton: FloatingActionButton(
+            shape: const CircleBorder(),
+            splashColor: Colors.grey.shade200,
+            backgroundColor: Colors.orange,
+            elevation: 4,
+            onPressed: _pickImage,
+            child: const Icon(
+              Icons.add,
+              size: 40,
+              color: Colors.white,
+            )),
       bottomNavigationBar: BottomNavBar(
         currentIndex: _currentIndex,
         onTap: itemTapped,

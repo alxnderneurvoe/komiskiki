@@ -22,9 +22,15 @@ class ProfilFeeds extends StatelessWidget {
                             height: 100,
                             width: 100,
                             decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(5),
-                              color: Colors.black.withOpacity(0.5),
-                            ),
+                                borderRadius: BorderRadius.circular(5),
+                                color: Colors.black.withOpacity(0.5),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Colors.black.withOpacity(0.5),
+                                    offset: Offset(5, 5),
+                                    blurRadius: 10,
+                                  )
+                                ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
                               child: Image.asset('assets/11.jpeg',
@@ -35,9 +41,15 @@ class ProfilFeeds extends StatelessWidget {
                             height: 100,
                             width: 100,
                             decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(5),
-                              color: Colors.black.withOpacity(0.5),
-                            ),
+                                borderRadius: BorderRadius.circular(5),
+                                color: Colors.black.withOpacity(0.5),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Colors.black.withOpacity(0.5),
+                                    offset: Offset(5, 5),
+                                    blurRadius: 10,
+                                  )
+                                ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
                               child: Image.asset('assets/11.jpeg',
@@ -48,9 +60,15 @@ class ProfilFeeds extends StatelessWidget {
                             height: 100,
                             width: 100,
                             decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(5),
-                              color: Colors.black.withOpacity(0.5),
-                            ),
+                                borderRadius: BorderRadius.circular(5),
+                                color: Colors.black.withOpacity(0.5),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Colors.black.withOpacity(0.5),
+                                    offset: Offset(5, 5),
+                                    blurRadius: 10,
+                                  )
+                                ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
                               child: Image.asset('assets/11.jpeg',
@@ -66,9 +84,15 @@ class ProfilFeeds extends StatelessWidget {
                             height: 100,
                             width: 100,
                             decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(5),
-                              color: Colors.black.withOpacity(0.5),
-                            ),
+                                borderRadius: BorderRadius.circular(5),
+                                color: Colors.black.withOpacity(0.5),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Colors.black.withOpacity(0.5),
+                                    offset: Offset(5, 5),
+                                    blurRadius: 10,
+                                  )
+                                ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
                               child: Image.asset('assets/11.jpeg',
@@ -79,9 +103,15 @@ class ProfilFeeds extends StatelessWidget {
                             height: 100,
                             width: 100,
                             decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(5),
-                              color: Colors.black.withOpacity(0.5),
-                            ),
+                                borderRadius: BorderRadius.circular(5),
+                                color: Colors.black.withOpacity(0.5),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Colors.black.withOpacity(0.5),
+                                    offset: Offset(5, 5),
+                                    blurRadius: 10,
+                                  )
+                                ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
                               child: Image.asset('assets/11.jpeg',
@@ -92,9 +122,15 @@ class ProfilFeeds extends StatelessWidget {
                             height: 100,
                             width: 100,
                             decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(5),
-                              color: Colors.black.withOpacity(0.5),
-                            ),
+                                borderRadius: BorderRadius.circular(5),
+                                color: Colors.black.withOpacity(0.5),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Colors.black.withOpacity(0.5),
+                                    offset: Offset(5, 5),
+                                    blurRadius: 10,
+                                  )
+                                ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
                               child: Image.asset('assets/11.jpeg',
@@ -110,9 +146,15 @@ class ProfilFeeds extends StatelessWidget {
                             height: 100,
                             width: 100,
                             decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(5),
-                              color: Colors.black.withOpacity(0.5),
-                            ),
+                                borderRadius: BorderRadius.circular(5),
+                                color: Colors.black.withOpacity(0.5),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Colors.black.withOpacity(0.5),
+                                    offset: Offset(5, 5),
+                                    blurRadius: 10,
+                                  )
+                                ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
                               child: Image.asset('assets/11.jpeg',
@@ -123,9 +165,15 @@ class ProfilFeeds extends StatelessWidget {
                             height: 100,
                             width: 100,
                             decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(5),
-                              color: Colors.black.withOpacity(0.5),
-                            ),
+                                borderRadius: BorderRadius.circular(5),
+                                color: Colors.black.withOpacity(0.5),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Colors.black.withOpacity(0.5),
+                                    offset: Offset(5, 5),
+                                    blurRadius: 10,
+                                  )
+                                ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
                               child: Image.asset('assets/11.jpeg',
@@ -136,9 +184,15 @@ class ProfilFeeds extends StatelessWidget {
                             height: 100,
                             width: 100,
                             decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(5),
-                              color: Colors.black.withOpacity(0.5),
-                            ),
+                                borderRadius: BorderRadius.circular(5),
+                                color: Colors.black.withOpacity(0.5),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Colors.black.withOpacity(0.5),
+                                    offset: Offset(5, 5),
+                                    blurRadius: 10,
+                                  )
+                                ]),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(5),
                               child: Image.asset('assets/11.jpeg',
