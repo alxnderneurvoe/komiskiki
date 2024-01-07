@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'login-reges/login.dart';
+import 'splash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,10 +12,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: 'Kirina Art',
-      home: LoginPage(),
+    return MaterialApp(
+      title: 'Aplikasi Kelompok 3',
       debugShowCheckedModeBanner: false,
+      routes: {
+        '/': (context) => const SplashScreen(
+              child: LoginPage(),
+            ),
+      },
     );
   }
 }
