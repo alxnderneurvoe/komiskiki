@@ -13,7 +13,7 @@ class _FollowingPageState extends State<FollowingPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-            title: Container(
+            title: SizedBox(
                 width: 280,
                 height: 30,
                 child: Row(

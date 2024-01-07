@@ -66,7 +66,7 @@ class _PostPageState extends State<PostPage> {
                   ]),
             ]),
             Center(
-              child: Container(
+              child: SizedBox(
                 width: 500,
                 height: 500,
                 child: Image.asset(
@@ -90,7 +90,7 @@ class _PostPageState extends State<PostPage> {
                   )),
             ]),
             const SizedBox(width: 20),
-            Column(
+            const Column(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
