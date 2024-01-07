@@ -37,13 +37,13 @@ class _ProfilAkmalState extends State<ProfilAkmal> {
       floatingActionButton: FloatingActionButton(
         shape: const CircleBorder(),
         splashColor: Colors.grey.shade200,
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.orange,
         elevation: 4,
         onPressed: _pickImage,
         child: const Icon(
           Icons.add,
           size: 40,
-          color: Colors.black,
+          color: Colors.white,
         ),
       ),
       bottomNavigationBar: BottomNavBar(
